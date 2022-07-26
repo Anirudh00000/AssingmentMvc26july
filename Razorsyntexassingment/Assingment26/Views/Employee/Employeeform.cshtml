@@ -1,0 +1,131 @@
+﻿
+
+
+ <html>
+    <head>
+        <style>
+		body{
+			background-color:#67cfcd;
+			margin: 0;
+		}
+		
+		
+		td{
+			padding: 7px;
+		}
+		input{
+			height: 30px;
+			border-radius: 10px;
+			border: none;
+			
+		}
+		
+		input:focus{
+			outline: none;
+			border: 1px solid forestgreen;
+		}
+		input:hover{
+			box-shadow: 5px 5px 5px black;
+		}
+		
+		.button{
+			background-color: forestgreen;
+			color:#fff;
+			border: none;
+			padding: 7px;
+            alingment :center;
+		}
+		
+		.button:hover {
+			cursor: pointer;
+			box-shadow: 5px 5px 5px red;
+		}
+	</style>
+    </head>
+	<body>
+		
+
+	<section  class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-12 col-lg-9 col-xl-7">
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body p-4 p-md-5">
+            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+
+            <form >
+  <div class="form-row">
+   
+		<label for="inputMoile">First name</label>
+      <input type="text" class="form-control" placeholder="First name"  required>
+    </div>
+    <div class="form-row">
+		<label for="inputMoile">Last name</label>
+      <input type="text" class="form-control" placeholder="Last name" required>
+    
+  </div>
+   <div class="form-row">
+  
+        <label for="inputMoile">Mobile</label>
+        <input type="number" class="form-control" id="inputMobile" placeholder="Mobile" required>
+   </div>
+  
+  <div class="form-row">
+   
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+    </div>
+  
+  <div class="form-group">
+    <label for="inputAddress">Address Line 1</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Address Line 1" required>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address Line 2</label>
+    <input type="text" class="form-control" id="inputAddress2"placeholder="Address Line 2" >
+  </div>
+
+  <div class="form-row">
+    <div class="form-group col-md-12">
+      <label for="inputCity">City</label>
+		<select id="inputCity" class="form-control" required>
+        <option selected>Choose...</option>
+        <option>Delhi</option>
+        <option>Mumbai</option>
+        <option>Hydrabad</option>
+      </select>    </div>
+
+
+
+    <div class="form-group col-md-12">
+      <label for="inputCountry">Country</label>
+      <select id="inputCOuntry" class="form-control">
+        <option selected>Choose Country</option>
+        <option>India</option>
+        <option>china</option>
+        <option>uk</option>
+		 <option>usa</option>
+        <option>japan</option>
+        <option>england</option>
+      </select>    </div>
+
+
+
+    <div class="form-group col-md-12">
+      <label for="inputZip">Zip</label>
+      <input type="number" class="form-control" id="inputZip" required >
+    </div>
+  </div>
+  <br />
+  <center>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+  </center>
+  </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
